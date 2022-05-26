@@ -9288,7 +9288,7 @@
     (function () {
       var e = t(791),
         n = t(250);
-      var r = t.p + "build/static/media/logo.d1e0d651cae45b7c1c6d6e3f3af28baa.svg",
+      var r = t.p + "static/media/logo.d1e0d651cae45b7c1c6d6e3f3af28baa.svg",
         l = t(184);
       var a = function () {
           return (0, l.jsx)("div", {
