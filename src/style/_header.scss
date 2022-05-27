@@ -1,0 +1,59 @@
+// div {
+// font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+// 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+// sans-serif;
+// }
+
+$text-col: #ffe478;
+$hover-col: #ddac2a;
+$toggle-stripe-col: #f1b7c0;
+$toggle-border-col: #819e8b;
+$text-font : -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+sans-serif;
+
+* {
+  font-family: $text-font
+}
+.nvbar {
+  &__icon {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    &__a {
+      margin: 0;
+      padding: 0;
+      & img {
+        margin-left: 0;
+        padding: 0;
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
+.navbar-light {
+  & .navbar-nav {
+    & .nav-link {
+      color: $text-col;
+      &:hover {
+        color: $hover-col;
+      }
+    }
+    & .active > .nav-link {
+      color: $text-col;
+    }
+  }
+}
+.custom-toggler.navbar-toggler {
+  border-color: $toggle-border-col;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241, 183, 192, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nvbar2 {
+  & form {
+    margin-left: 2%;
+  }
+}
