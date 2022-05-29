@@ -40,9 +40,12 @@ sans-serif;
       &:hover {
         color: $hover-col;
       }
+      &:active {
+        color: $toggle-stripe-col;
+      }
     }
     & .active > .nav-link {
-      color: $text-col;
+      color: $toggle-stripe-col;
     }
   }
 }
@@ -55,5 +58,8 @@ sans-serif;
 .nvbar2 {
   & form {
     margin-left: 2%;
+    & .btn-outline-warning:hover {
+      background-color: $hover-col;
+    }
   }
 }

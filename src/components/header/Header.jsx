@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
-import "../../style/_header.scss";
+import "../../style/__header.scss";
 export default function Header() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent nvbar">
@@ -26,6 +26,11 @@ export default function Header() {
           <li class="nav-item active ">
             <a class="nav-link" href="/">
               Home <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              Features
             </a>
           </li>
           <li class="nav-item">
